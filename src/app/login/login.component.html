@@ -1,0 +1,22 @@
+    <div id="formWrapper">    
+    <div id="form">
+    <div class="logo">
+    <h1 class="text-center head">Login</h1>
+    </div>
+        <div class="form-item">
+          <p class="etichetta">Email</p>
+          <input type="email" name="email" id="email" class="form-style" autocomplete="off"/>
+        </div>
+        <div class="form-item">
+          <p class="etichetta">Password</p>
+          <input type="password" name="password" id="password" class="form-style" />
+        </div>
+        <div class="form-item">
+        <p class="pull-left">
+        <a (click)="goToRegister()">Register</a></p>
+        <input type="submit" class="login pull-right" value="Log In">
+        <div class="clear-fix"></div>
+        </div>
+    </div>
+    </div>
+    <router-outlet></router-outlet>
